@@ -1,0 +1,29 @@
+.input-name, .input-email, .input-pass{
+    margin-bottom: 12px;
+}
+
+.title-acc{
+    font-size: var(--lg);
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.edit-button{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;   
+}
+
+@media (max-width: 600px){
+    .form-container {
+        height: 100%;
+    }
+    .form {
+        height: 100%;
+        justify-content: space-between;
+    }
+}

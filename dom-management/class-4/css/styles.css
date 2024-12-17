@@ -1,0 +1,30 @@
+/* Estilos para White Mode */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    padding: 1em;
+}
+
+.menu-item a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Estilos para Dark Mode */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+header.dark-mode {
+    background-color: rgb(26, 26, 26);
+}
+
+.menu-item a.dark-mode {
+    color: lightblue;
+}

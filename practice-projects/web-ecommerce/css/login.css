@@ -1,0 +1,27 @@
+.form a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
+
+.secondary-button {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+
+@media (max-width: 600px){
+    .secondary-button {
+        position: absolute;
+        bottom: 50px;
+        width: 300px;
+    }
+}

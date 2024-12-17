@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.river{
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    margin: 20px;
+}
+
+.river-start-game{
+    background-color: palegreen;
+}
+
+.card{
+    width: 60px;
+    cursor: pointer;
+}
+
+.start-button{
+    color: green;;
+    background-color: palegreen;
+    border-radius:20px;
+    border: 2px solid green;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    align-content: center;
+}
+
+.stop-button{
+    background-color: coral;
+    border: 2px solid red;
+    color: #ffd3d3;
+}
+
